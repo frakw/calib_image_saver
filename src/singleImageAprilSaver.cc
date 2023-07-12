@@ -34,7 +34,7 @@ void
 showImage( cv::Mat& image, cv::Mat& _DistributedImage )
 {
     if ( image.channels( ) == 1 )
-        cv::cvtColor( image, image_show, cv::COLOR_GRAY2RGB );
+        cv::cvtColor( image, image_show, CV_GRAY2RGB );
     else
         image_show = image;
 
